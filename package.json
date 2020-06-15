@@ -1,0 +1,27 @@
+{
+  "name": "create-web-plugin",
+  "version": "0.0.2",
+  "description": "plugin service for web",
+  "main": "bundle.js",
+  "scripts": {
+    "build": "rollup -c rollup.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lirongfei123/web-plugin.git"
+  },
+  "keywords": [
+    "插件化"
+  ],
+  "peerDependencies": {
+  },
+  "author": "lirongping",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lirongfei123/web-plugin/issues"
+  },
+  "homepage": "https://github.com/lirongfei123/web-plugin#readme",
+  "devDependencies": {
+    "rollup": "^2.7.2"
+  }
+}
